@@ -1,0 +1,49 @@
+header {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.inner-header {
+    color: aliceblue;
+    background-color: #4B0082FF !important;
+    display: flex;
+    justify-content: space-around;
+}
+.navigation {
+    display: flex;
+    justify-content: space-around;
+}
+.navigation a{
+    height: 100%;
+    display: table;
+    padding: 0px 20px;
+    text-decoration: none;
+    text-underline: none;
+}
+.navigation a li {
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+.navigation a:hover {
+    background-color: dimgrey;
+}
+.content {
+    width: 80%;
+    margin: 0 10%;
+}
+
+img {
+    float: left;
+    max-width: 40%;
+    border-radius: 20px;
+    margin: 10px;
+}
+p {
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    color: darkblue;
+    text-transform: uppercase;
+}
